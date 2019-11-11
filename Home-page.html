@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            
+            <meta charset="utf-8">
+            <title>Home Page</title>
+            <link rel="stylesheet" href="style.css">
+            
+        </head>
+        
+        <body>
+        
+            <div class="nav">
+               
+                <ul class= "topbar">
+                    
+                    <li class="nav-li"><a class="menu" href="#">Menu</a>
+                       
+                        <ul class="sidebar">
+                            
+                            <li class="nav-li"><a class="active" href="Home-page.html">Home</a></li>
+                            
+                            <li class="category-drop nav-li" id="photography-drop"><a href="photography/photography.html">Photography</a>
+                                
+                                <ul class="category-drop-list">
+                                    
+                                    
+                                    <li class="nav-li"><a id="photography-items" href="photography/Asia/Asia.html">Asia</a></li>
+                                    <li class="nav-li"><a id="photography-items" href="photography/Africa/Africa.html">Africa</a></li>
+                                    <li class="nav-li"><a id="photography-items" href="photography/Europe/Europe.html">Eurpoe</a></li>
+                                    
+                                        
+                                </ul>
+                            
+                            </li>
+                            
+                            <li class="category-drop nav-li" id="web-projects-drop"><a href="web-projects/web-projects.html">Web Projects</a>
+                            
+                                <ul class="category-drop-list">
+                                    
+                                    
+                                    <li class="nav-li"><a id="web-projects-items" href="web-projects/Examples/examples.html">Examples</a></li>
+                                    <li class="nav-li"><a id="web-projects-items" href="web-projects/Info/info.html.html">Info</a></li>
+                                      
+                                </ul>
+                            
+                            </li>
+                            
+                            <li class="category-drop nav-li" id="programming-drop"><a href="programming/programming.html">Programming</a>
+                            
+                                <ul class="category-drop-list">
+                                    
+                                    
+                                    <li class="nav-li"><a id="programming-items" href="programming/python/python.html">Python</a></li>
+                                    <li class="nav-li"><a id="programming-items" href="programming/arduino/arduino.html">Arduino</a></li>
+                                    <li class="nav-li"><a id="programming-items" href="programming/FYP/FYP.html">FYP</a></li>
+                                        
+                                </ul>
+                            
+                            
+                            </li>
+                            
+                            
+                        </ul>
+                    </li>
+                    <li id="nav-pos-right" class="about-drop, nav-li"><a href="about/about.html">About</a>
+                            
+                        <ul class="about-drop-list">
+                                    
+                                    
+                            <li class="nav-li"><a id="about-items" href="about/about.html" >About me</a></li>
+                            <li class="nav-li"><a id="about-items" onclick="window.open('https://www.linkedin.com/in/oliver-holden3/'); return true">LinkedIn</a></li>
+                            <li class="nav-li"><a id="about-items" href="#">Gitlab</a></li>
+                            <li class="nav-li"><a id="about-items" onclick="window.open('https://www.instagram.com/ollie_holden3/'); return true">Instagram</a></li>
+                                        
+                        </ul>
+                    
+                    </li>
+                    
+                </ul>
+                
+                <div class="container">
+                
+                    <div class="imagecontainer">
+
+                        <img class="image" src="desk.png" alt="Desk" width="100%" /> <br>
+
+                        <a href="web-projects/examples/examples.html" class="btn web-projects-btn">
+                        
+                            <div class = "btn-show-text">Web Projects</div>
+                        
+                        </a>
+                        <a href="photography/Asia/Asia.html" class="btn photography-btn">
+                        
+                            <div class = "btn-show-text">Photography</div>
+                        
+                        </a>
+                        <a href="programming/programming.html" class="btn programming-btn">
+                        
+                            <div class = "btn-show-text">Programming</div>
+                            
+                        </a> 
+                        <a href="about/about.html" class="btn about-btn">
+                            
+                            <div class = "btn-show-text">About</div>
+                            
+                        </a>
+
+                        <div class = "wrapper">
+
+                            <div class="info-text">
+
+                                <h1> Oliver Holden </h1> 
+                                <h2> Graduate Software Developer </h2>
+
+                            </div>
+
+                            <div class="grid-div">
+
+                                <div class="main-grid">
+                                    
+                                    <div class="grid-item" id="about-items">
+                                        <div class="about-stick" id="about-items">
+                                            <h1 class="border">About</h1>
+                                        </div>
+                                        <div class="item-grid">
+                                            <div class="col">This little piggy went to market.</div>
+                                            <div class="col">This little piggy stayed home.</div>
+                                            <div class="col">This little piggy had roast beef.</div>
+                                                 
+                                        </div>
+                                    </div>
+                                    <div class="grid-item" id="photography-items">
+                                        <div class="about-stick" id="photography-items">
+                                            <h1 class="border">Photography</h1>
+                                        </div>
+                                            
+                                        <div class="item-grid">
+                                            <div class="col">This little piggy went to market.</div>
+                                            <div class="col">This little piggy stayed home.</div>
+                                            <div class="col">This little piggy had roast beef.</div>
+                                                  
+                                        </div>
+                                    </div>
+                                    <div class="grid-item" id="web-projects-items">
+                                        <div class="about-stick" id="web-projects-items">
+                                            <h1 class="border">Web Projects</h1>
+                                        </div>
+                                            
+                                        <div class="item-grid">
+                                            <div class="col">This little piggy went to market.</div>
+                                            <div class="col">This little piggy stayed home.</div>
+                                            <div class="col">This little piggy had roast beef.</div>
+                                                 
+                                        </div>
+                                    </div>
+                                     
+                                    <div class="grid-item" id="programming-items">
+                                        <div class="about-stick" id="programming-items">
+                                            <h1 class="border">Programming</h1>
+                                        </div>
+                                        
+                                        <div class="item-grid">
+                                            <div class="col">This little piggy went to market.</div>
+                                            <div class="col">This little piggy stayed home.</div>
+                                            <div class="col">This little piggy had roast beef.</div>
+                                                   
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="grid-footer">
+                                        <div class="about-stick" id="programming-items">
+                                            <h1 class="border">Contact</h1>
+                                        </div>
+                                        
+                                        <div class="item-grid-footer">
+                                            <div class="col">This little piggy went to market.</div>
+                                            <div class="col">This little piggy stayed home.</div>
+                                            <div class="col">This little piggy had roast beef.</div>
+                                                   
+                                        </div>
+                                    </div>
+                    
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+        </body>
+        
+    </html>
+
