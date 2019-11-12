@@ -161,32 +161,32 @@ body {
     background-color: rgba(247, 143, 7, 1);
 }
 
-#photography-items {
+#about-items {
     background-color: rgba(63, 136, 191, 0.75);
     
 }
 
-#photography-items:hover {
-    background-color: rgba(63, 136, 191, 1);
-    color: white;
-}
-
-#photography-drop:hover {
-    background-color: rgba(63, 136, 191, 1);
-}
-
-
-#about-items {
-    
-    background-color: rgba(32, 186, 52, 0.75);
-}
-
 #about-items:hover {
-    background-color: rgba(32, 186, 52, 1);
+    background-color: rgba(63, 136, 191, 1);
     color: white;
 }
 
 #about-drop:hover {
+    background-color: rgba(63, 136, 191, 1);
+}
+
+
+#photography-items {
+    
+    background-color: rgba(32, 186, 52, 0.75);
+}
+
+#photography-items:hover {
+    background-color: rgba(32, 186, 52, 1);
+    color: white;
+}
+
+#photography-drop:hover {
     background-color: rgba(32, 186, 52, 1);
 }
 
@@ -348,20 +348,20 @@ body {
     position: sticky;
     margin-top: 3em;
     z-index: 20;
-    width: 55%;
+    width: 100%;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
     background-color: #1B4F72;
     border: solid #3498DB 5px;
-    opacity: 0.8;
+    
     margin-bottom: 2%;
 
 }
 
 .info-text h1 {
 
-    font-size: 40px;
+    font-size: 45px;
 
     color: white;
 
@@ -369,10 +369,17 @@ body {
 
 .info-text h2 {
 
-    font-size: 30px;
+    font-size: 35px;
 
     color: white;
 
+}
+
+.info-text p {
+    
+    color: white;
+    font-size: 25px;
+    
 }
 
 .grid-div {
@@ -387,7 +394,7 @@ body {
 .main-grid {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: transparent;
 
     z-index: 50;
@@ -465,13 +472,15 @@ body {
 
 
 @-webkit-keyframes btn-expand {
-  from {background-color: #3498DB; border: 3px solid white;}
-  to {background-color: white; border: 3px solid #3498DB;}
+    0% {background-color: #3498DB; border: 3px solid white;}
+    50% {background-color: white; border: 3px solid #3498DB;}
+    100% {background-color: #3498DB; border: 3px solid white;}
 }
 
 @keyframes example btn-expand {
-  from {background-color: #3498DB; border: 3px solid white;}
-  to {background-color: white; border: 3px solid #3498DB;}
+    0% {background-color: #3498DB; border: 3px solid white;}
+    50% {background-color: white; border: 3px solid #3498DB;}
+    100% {background-color: #3498DB; border: 3px solid white;}
 }
 
 /*******************************************************************************************************/
@@ -540,7 +549,7 @@ body {
     .info-text {
 
     
-    width: 50%;
+    width: 100%;
         
     } 
     
