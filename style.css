@@ -486,7 +486,7 @@ body {
 /*******************************************************************************************************/
 /* Home Media Queries */
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
 
      .main-grid {
          
@@ -502,7 +502,7 @@ body {
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
 
     .nav-li .menu {
 
