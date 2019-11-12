@@ -486,7 +486,7 @@ body {
 /*******************************************************************************************************/
 /* Home Media Queries */
 
-@media screen and (max-width: 2000px) {
+@media only screen and (max-width: 2000px) {
 
      .main-grid {
          
@@ -502,7 +502,7 @@ body {
     
 }
 
-@media screen and (max-width: 1500px) {
+@media only screen and (max-width: 1400px) {
 
     .nav-li .menu {
 
@@ -523,11 +523,32 @@ body {
 
         display: none;
     }
+    
+    .sidebar > .nav-li {
+
+    float: left;
+    width: 300px;
+
+    }
+
+    .topbar > .nav-li {
+
+        float: left;
+        width: 300px;
+
+    }
+    
+    .nav-li > a {
+
+    
+    font-size: 30px;
+
+    }
 
     .topbar .nav-li:hover .sidebar {
 
         display: block;
-        width: 150px;
+        width: 300px;
     }
 
     
@@ -535,7 +556,7 @@ body {
        
         
         display: inline-block;
-        left: 150px;
+        left: 300px;
         margin-top: -43px;
         
     }
