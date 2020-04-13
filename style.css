@@ -130,6 +130,7 @@ body {
 
 .info-text {
     position: sticky;
+    position: -webkit-sticky;
     margin-top: 3em;
     z-index: 20;
     width: 100%;
