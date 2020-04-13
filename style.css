@@ -34,7 +34,7 @@ body {
     background-color: #1B4F72;
     z-index: 35;
     height: auto;
-    
+
 }
 
 .sidebar > .nav-li {
@@ -77,7 +77,7 @@ body {
 
 #nav-pos-right {
     float: right;
-    
+
 }
 
 .nav-li .menu {
@@ -89,13 +89,13 @@ body {
     display: none;
     width: 200px;
     background-color: transparent;
-  
+
 }
 
 .category-drop-list {
-   
+
     text-align: left;
-  
+
 }
 
 .category-drop:hover .category-drop-list {
@@ -107,13 +107,13 @@ body {
     display: none;
     width: 150px;
     background-color: transparent;
-  
+
 }
 
 .about-drop-list {
-   
+
     text-align: left;
-  
+
 }
 
 .nav-li:hover .nav-li:active .about-drop-list {
@@ -122,37 +122,37 @@ body {
 }
 
 .nav ul .nav-li a:hover {
-    
-    
+
+
     border: 5px solid white;
     padding: 6px 14px;
-    
+
 }
 
 #programming-items {
     background-color: rgba(223, 36, 36, 0.75);
-    
+
 }
 
 #programming-items:hover {
-    
+
     background-color: rgba(223, 36, 36, 1);
     color: white;
-    
-    
+
+
 }
 
 #programming-drop:hover {
     background-color: rgba(223, 36, 36, 1);
-    
+
 }
 
 #web-projects-items {
     background-color: rgba(247, 143, 7, 0.75);
-    
+
 }
 
-#web-projects-items:hover { 
+#web-projects-items:hover {
     background-color: rgba(247, 143, 7, 1);
     color: white;
 }
@@ -163,7 +163,7 @@ body {
 
 #about-items {
     background-color: rgba(63, 136, 191, 0.75);
-    
+
 }
 
 #about-items:hover {
@@ -177,7 +177,7 @@ body {
 
 
 #photography-items {
-    
+
     background-color: rgba(32, 186, 52, 0.75);
 }
 
@@ -477,7 +477,7 @@ body {
     100% {background-color: #3498DB; border: 3px solid white;}
 }
 
-@keyframes example btn-expand {
+@keyframes btn-expand {
     0% {background-color: #3498DB; border: 3px solid white;}
     50% {background-color: white; border: 3px solid #3498DB;}
     100% {background-color: #3498DB; border: 3px solid white;}
