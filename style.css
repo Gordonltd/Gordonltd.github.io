@@ -217,7 +217,6 @@ body {
 
     position: -webkit-sticky;
     position: sticky;
-    top: 40px;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -271,7 +270,7 @@ body {
 
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-8% + 40px);
+    margin-top: calc(-8% + 0px);
     margin-left: -15%;
     font-size: 2em;
 
@@ -289,7 +288,7 @@ body {
 
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-22% + 40px);
+    margin-top: calc(-22% + 0px);
     margin-left: -28%;
     font-size: 2em;
 
@@ -308,7 +307,7 @@ body {
 
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-26% + 40px);
+    margin-top: calc(-26% + 0px);
     margin-left: 0.6%;
     font-size: 2em;
 
@@ -329,7 +328,7 @@ body {
 
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-25% + 40px);
+    margin-top: calc(-25% + 0px);
     margin-left: 29%;
     font-size: 2em;
 
