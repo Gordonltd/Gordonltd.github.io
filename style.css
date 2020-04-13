@@ -77,8 +77,8 @@ body {
 .photography-btn {
     position: absolute;
     cursor: pointer;
-    margin-top: 20%;
-    right: 10%;
+    margin-top: 40%;
+    margin-left: -66%;
     font-size: 2em;
 }
 
@@ -91,8 +91,8 @@ body {
 .about-btn {
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-22% + 0px);
-    margin-left: -28%;
+    margin-top: 26%;
+    margin-left: -76%;
     font-size: 2em;
 }
 
@@ -105,8 +105,8 @@ body {
 .web-projects-btn {
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-26% + 0px);
-    margin-left: 0.6%;
+    margin-top: 24%;
+    margin-left: -48%;
     font-size: 2em;
 }
 
@@ -119,8 +119,8 @@ body {
 .programming-btn {
     position: fixed;
     cursor: pointer;
-    margin-top: calc(-25% + 0px);
-    margin-left: 29%;
+    margin-top: 28%;
+    margin-left: -9%;
     font-size: 2em;
 }
 
