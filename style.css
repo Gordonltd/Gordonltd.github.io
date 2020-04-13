@@ -145,7 +145,8 @@ body {
     box-sizing: border-box;
 }
 
-#nav-pos-right {
+.info-image {
+    margin-top: 2em;
     float: right;
 
 }
