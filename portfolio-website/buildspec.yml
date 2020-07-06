@@ -15,4 +15,4 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./portfolio-website/build s3://portfolio-website-bucket
+      - aws s3 sync ./build s3://portfolio-website-bucket
