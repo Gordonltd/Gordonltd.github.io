@@ -8,10 +8,11 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
+      - cd portfolio-website
       - npm install
   build:
     commands:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./build s3://portfolio-website-bucket
+      - aws s3 sync ./portfolio-website/build s3://portfolio-website-bucket
