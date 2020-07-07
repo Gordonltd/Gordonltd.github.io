@@ -18,5 +18,7 @@ artifacts:
   files:
     - scripts*/**
     - appspec.yml
-    - "*/**"
+    - portfolio-website*/**
+    - portfolio-website/public*/**
+    - portfolio-website/src*/**
   discard-paths: no
