@@ -12,10 +12,10 @@ phases:
   build:
     commands:
       - npm run build
-      - echo < ls -ltr
+      - dir /s
 
 artifacts:
   files:
     - "*/**"
   discard-paths: no
-  base-directory: build
+  base-directory: public
