@@ -16,6 +16,7 @@ phases:
 
 artifacts:
   files:
+    - scripts*/**
     - appspec.yml
     - portfolio-website/build*/**
   discard-paths: no
