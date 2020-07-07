@@ -15,9 +15,12 @@ phases:
       - npm run build
 
 artifacts:
-  files:
-    - scripts*/**
-    - appspec.yml
-    - portfolio-website/build*/**
-    - portfolio-website/build/static*/**
-  discard-paths: no
+  secondary-artifacts:
+    artifact1:
+      files:
+        - scripts*/**
+   	- appspec.yml
+    artifact2:
+      base-directory: portfolio-website/build
+      files:
+        - "*/**"
