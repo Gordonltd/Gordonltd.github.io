@@ -37,7 +37,7 @@ body {
     position: fixed;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #3498DB;
+    background-color: red;
     cursor: pointer;
     border: 3px solid white;
     border-radius: 50%;
