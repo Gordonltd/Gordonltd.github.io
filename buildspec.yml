@@ -19,4 +19,3 @@ artifacts:
     - build/static*/**
     - appspec.yml
     - scripts*/**
-  discard-paths: yes
