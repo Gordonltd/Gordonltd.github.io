@@ -19,8 +19,8 @@ artifacts:
     artifact1:
       files:
         - scripts*/**
-   	- appspec.yml
+        - app spec.yml
     artifact2:
       base-directory: portfolio-website/build
       files:
-        - "*/**"
+        - "/**"
