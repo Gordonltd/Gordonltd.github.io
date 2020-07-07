@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /portfolio-website/build
-    destination: /var/www/html/portfolio-website/build
+  - source: /
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
