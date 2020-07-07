@@ -8,7 +8,6 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
-      - cd portfolio-website
       - npm install
   build:
     commands:
